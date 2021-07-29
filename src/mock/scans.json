@@ -1,0 +1,44 @@
+[
+    {
+        "scan_name": "UPH Scan",
+        "revisions": [
+            {
+                "rev": 1,
+                "severities": {
+                    "severe": 3,
+                    "medium": 2,
+                    "low": 100
+                }
+            }
+        ]
+    },
+    {
+        "scan_name": "Cool Scan 2",
+        "revisions": [
+            {
+                "rev": 1,
+                "severities": {
+                    "severe": 3,
+                    "medium": 2,
+                    "low": 100
+                }
+            },
+             {
+                "rev": 2,
+                "severities": {
+                    "severe": 3,
+                    "medium": 12,
+                    "low": 10
+                }
+            },
+             {
+                "rev": 3,
+                "severities": {
+                    "severe": 33,
+                    "medium": 26,
+                    "low": 200
+                }
+            }
+        ]
+    }
+]
