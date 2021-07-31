@@ -1,44 +1,536 @@
 [
     {
-        "scan_name": "UPH Scan",
-        "revisions": [
-            {
-                "rev": 1,
-                "severities": {
-                    "severe": 3,
-                    "medium": 2,
-                    "low": 100
-                }
-            }
+        "type": "scan_label",
+        "label": "Jio External Phase 2",
+        "newest_iteration": 3,
+        "scans": [
+          {
+            "scan_id": "9b45ef0b-60ba-4d5c-a47c-d59e79b84751",
+            "type": "scan",
+            "label": "Jio External Phase 2",
+            "started": 1626263563,
+            "scan_num": 3,
+            "finished": 1626266996,
+            "status": 1,
+            "num_ips": 442,
+            "num_major": 0,
+            "num_noteworthy": 2,
+            "num_minor": 72
+          }
         ]
-    },
-    {
-        "scan_name": "Cool Scan 2",
-        "revisions": [
-            {
-                "rev": 1,
-                "severities": {
-                    "severe": 3,
-                    "medium": 2,
-                    "low": 100
-                }
-            },
-             {
-                "rev": 2,
-                "severities": {
-                    "severe": 3,
-                    "medium": 12,
-                    "low": 10
-                }
-            },
-             {
-                "rev": 3,
-                "severities": {
-                    "severe": 33,
-                    "medium": 26,
-                    "low": 200
-                }
-            }
+      },
+      {
+        "type": "scan_label",
+        "label": "mascom.bw",
+        "newest_iteration": 6,
+        "scans": [
+          {
+            "scan_id": "eb6fcf32-5275-4e8f-8405-ba98206f7622",
+            "type": "scan",
+            "label": "mascom.bw",
+            "started": 1615467560,
+            "scan_num": 6,
+            "finished": 1615769620,
+            "status": 1,
+            "num_ips": 47,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 13
+          },
+          {
+            "scan_id": "26cca4c1-af53-4b02-b09d-6714678a15cb",
+            "type": "scan",
+            "label": "mascom.bw",
+            "started": 1611826130,
+            "scan_num": 5,
+            "finished": 1611835408,
+            "status": 1,
+            "num_ips": 78,
+            "num_major": 0,
+            "num_noteworthy": 1,
+            "num_minor": 15
+          },
+          {
+            "scan_id": "cd20883d-b3ec-4364-85a0-9681705e84aa",
+            "type": "scan",
+            "label": "mascom.bw",
+            "started": 1596515695,
+            "scan_num": 4,
+            "finished": 1596629184,
+            "status": 1,
+            "num_ips": 36,
+            "num_major": 1,
+            "num_noteworthy": 1,
+            "num_minor": 9
+          },
+          {
+            "scan_id": "55c16286-4c0b-4202-bbec-4134ceeba435",
+            "type": "scan",
+            "label": "mascom.bw",
+            "started": 1548759942,
+            "scan_num": 3,
+            "finished": 1549017800,
+            "status": 1,
+            "num_ips": 19,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 7
+          },
+          {
+            "scan_id": "52e0ffb4-be76-4700-84c4-b835ec3d38d3",
+            "type": "scan",
+            "label": "mascom.bw",
+            "started": 1548686709,
+            "scan_num": 1,
+            "finished": 1548694754,
+            "status": 1,
+            "num_ips": 614,
+            "num_major": 1,
+            "num_noteworthy": 12,
+            "num_minor": 334,
+            "unpublished": true
+          }
         ]
-    }
+      },
+      {
+        "type": "scan_label",
+        "label": "Access Bank - internal",
+        "newest_iteration": 1,
+        "scans": [
+          {
+            "scan_id": "77d96e33-01d0-4678-9cbf-3fa91b77298e",
+            "type": "scan",
+            "label": "Access Bank - internal",
+            "started": 1604631670,
+            "scan_num": 1,
+            "finished": 1624921200,
+            "status": 1,
+            "num_ips": 15816,
+            "num_major": 248,
+            "num_noteworthy": 1235,
+            "num_minor": 10673
+          }
+        ]
+      },
+      {
+        "type": "scan_label",
+        "label": "Semperit",
+        "newest_iteration": 2,
+        "scans": [
+          {
+            "scan_id": "139df321-f76a-486c-87b4-6d52213ba222",
+            "type": "scan",
+            "label": "Semperit",
+            "started": 1624271583,
+            "scan_num": 2,
+            "finished": 1624355830,
+            "status": 1,
+            "num_ips": 28,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 6
+          },
+          {
+            "scan_id": "3f83da61-f751-4f90-9d4f-53aadcbc26ae",
+            "type": "scan",
+            "label": "Semperit",
+            "started": 1623754669,
+            "scan_num": 1,
+            "finished": 1623768956,
+            "status": 1,
+            "num_ips": 50,
+            "num_major": 1,
+            "num_noteworthy": 0,
+            "num_minor": 12
+          }
+        ]
+      },
+      {
+        "type": "scan_label",
+        "label": "Semperit - incomplete scope v2",
+        "newest_iteration": 1,
+        "scans": [
+          {
+            "scan_id": "62dbd598-098a-470b-b2af-73b6dbce247b",
+            "type": "scan",
+            "label": "Semperit - incomplete scope v2",
+            "started": 1623747531,
+            "scan_num": 1,
+            "finished": 1623760075,
+            "status": 1,
+            "num_ips": 14,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 5
+          }
+        ]
+      },
+      {
+        "type": "scan_label",
+        "label": "Wittur",
+        "newest_iteration": 1,
+        "scans": [
+          {
+            "scan_id": "9689e3ed-922f-4aaf-8382-d5e61005dff8",
+            "type": "scan",
+            "label": "Wittur",
+            "started": 1623289261,
+            "scan_num": 1,
+            "finished": 1623475766,
+            "status": 1,
+            "num_ips": 174,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 30
+          }
+        ]
+      },
+      {
+        "type": "scan_label",
+        "label": "ews-schoenau.de",
+        "newest_iteration": 5,
+        "scans": [
+          {
+            "scan_id": "fbe04d2b-c149-401f-96c2-fc00ffbe3566",
+            "type": "scan",
+            "label": "ews-schoenau.de",
+            "started": 1621840394,
+            "scan_num": 5,
+            "finished": 1623422440,
+            "status": 1,
+            "num_ips": 10,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 9
+          },
+          {
+            "scan_id": "d953b4c7-36a8-47f2-af71-3a3c1f76962f",
+            "type": "scan",
+            "label": "ews-schoenau.de",
+            "started": 1616388207,
+            "scan_num": 4,
+            "finished": 1616700568,
+            "status": 1,
+            "num_ips": 10,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 8
+          },
+          {
+            "scan_id": "f8dfb2c1-6df8-42dd-8e3f-31e6a25acbc7",
+            "type": "scan",
+            "label": "ews-schoenau.de",
+            "started": 1612348423,
+            "scan_num": 3,
+            "finished": 1612354444,
+            "status": 1,
+            "num_ips": 8,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 7
+          },
+          {
+            "scan_id": "26c24a80-aedc-494c-a802-74a0fded8462",
+            "type": "scan",
+            "label": "ews-schoenau.de",
+            "started": 1588294526,
+            "scan_num": 2,
+            "finished": 1588414827,
+            "status": 1,
+            "num_ips": 8,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 6
+          },
+          {
+            "scan_id": "6670ae21-2c08-4aec-9993-ac2074c13e0d",
+            "type": "scan",
+            "label": "ews-schoenau.de",
+            "started": 1550760950,
+            "scan_num": 1,
+            "finished": 1550766312,
+            "status": 1,
+            "num_ips": 10,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 7
+          }
+        ]
+      },
+      {
+        "type": "scan_label",
+        "label": "taboola.com",
+        "newest_iteration": 11,
+        "scans": [
+          {
+            "scan_id": "730a496c-9f0f-48ee-b0b6-ef4d79e7dc79",
+            "type": "scan",
+            "label": "taboola.com",
+            "started": 1623322028,
+            "scan_num": 11,
+            "finished": 1623422364,
+            "status": 1,
+            "num_ips": 403,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 12
+          },
+          {
+            "scan_id": "d78762f6-b0a6-4644-bd7a-6b19c035be92",
+            "type": "scan",
+            "label": "taboola.com",
+            "started": 1622545001,
+            "scan_num": 10,
+            "finished": 1622601376,
+            "status": 1,
+            "num_ips": 277,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 3
+          },
+          {
+            "scan_id": "4db16060-c96f-4084-b685-2a7bdef2de55",
+            "type": "scan",
+            "label": "taboola.com",
+            "started": 1602000377,
+            "scan_num": 3,
+            "finished": 1602019163,
+            "status": 1,
+            "num_ips": 312,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 12
+          },
+          {
+            "scan_id": "f953f1ab-2db2-42ef-bbd3-9255a116b517",
+            "type": "scan",
+            "label": "taboola.com",
+            "started": 1601404190,
+            "scan_num": 2,
+            "finished": 1601422693,
+            "status": 1,
+            "num_ips": 282,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 21
+          },
+          {
+            "scan_id": "8c072a54-1c4b-478c-a53a-cbc0c53601e0",
+            "type": "scan",
+            "label": "taboola.com",
+            "started": 1553004026,
+            "scan_num": 1,
+            "finished": 1553028426,
+            "status": 1,
+            "num_ips": 261,
+            "num_major": 0,
+            "num_noteworthy": 20,
+            "num_minor": 38
+          }
+        ]
+      },
+      {
+        "type": "scan_label",
+        "label": "ADS",
+        "newest_iteration": 3,
+        "scans": [
+          {
+            "scan_id": "3d8ab6df-34cd-4f3f-9323-5ab97698ef89",
+            "type": "scan",
+            "label": "ADS",
+            "started": 1621840296,
+            "scan_num": 3,
+            "finished": 1622778052,
+            "status": 1,
+            "num_ips": 10,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 4
+          },
+          {
+            "scan_id": "cc6ca26c-331e-460b-9d75-81d4d34b46f8",
+            "type": "scan",
+            "label": "ADS",
+            "started": 1611889554,
+            "scan_num": 2,
+            "finished": 1611906917,
+            "status": 1,
+            "num_ips": 10,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 3
+          },
+          {
+            "scan_id": "8279f55a-85b9-46bc-b1d2-9a21e904dc4e",
+            "type": "scan",
+            "label": "ADS",
+            "started": 1598640088,
+            "scan_num": 1,
+            "finished": 1598657746,
+            "status": 1,
+            "num_ips": 16,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 5
+          }
+        ]
+      },
+      {
+        "type": "scan_label",
+        "label": "Tajawal",
+        "newest_iteration": 1,
+        "scans": [
+          {
+            "scan_id": "ae9d4411-41a2-4d8c-b6a1-2cfd966b395f",
+            "type": "scan",
+            "label": "Tajawal",
+            "started": 1622435075,
+            "scan_num": 1,
+            "finished": 1622481738,
+            "status": 1,
+            "num_ips": 59,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 8
+          }
+        ]
+      },
+      {
+        "type": "scan_label",
+        "label": "Datawrapper",
+        "newest_iteration": 7,
+        "scans": [
+          {
+            "scan_id": "a800f294-0a23-46fd-9740-e1e69b73f91b",
+            "type": "scan",
+            "label": "Datawrapper",
+            "started": 1622246554,
+            "scan_num": 7,
+            "finished": 1622277422,
+            "status": 1,
+            "num_ips": 60,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 8
+          },
+          {
+            "scan_id": "dfc7f4bc-9f2e-4981-b82d-86a22b81f666",
+            "type": "scan",
+            "label": "Datawrapper",
+            "started": 1621470859,
+            "scan_num": 6,
+            "finished": 1621500555,
+            "status": 1,
+            "num_ips": 106,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 2
+          },
+          {
+            "scan_id": "94ec04b6-1a3e-49af-a973-cef43379f8ef",
+            "type": "scan",
+            "label": "Datawrapper",
+            "started": 1620776129,
+            "scan_num": 5,
+            "finished": 1620797475,
+            "status": 1,
+            "num_ips": 51,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 2
+          },
+          {
+            "scan_id": "e886809c-f925-42a8-965c-936321f8dccd",
+            "type": "scan",
+            "label": "Datawrapper",
+            "started": 1616386395,
+            "scan_num": 4,
+            "finished": 1616701443,
+            "status": 1,
+            "num_ips": 57,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 1
+          },
+          {
+            "scan_id": "d9ae27b9-e291-4f2d-a3da-4a15a4870ed6",
+            "type": "scan",
+            "label": "Datawrapper",
+            "started": 1611889399,
+            "scan_num": 3,
+            "finished": 1611905686,
+            "status": 1,
+            "num_ips": 20,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 2
+          },
+          {
+            "scan_id": "011c888d-3116-4d34-b0f1-5b0063560c15",
+            "type": "scan",
+            "label": "Datawrapper",
+            "started": 1600771308,
+            "scan_num": 2,
+            "finished": 1600780225,
+            "status": 1,
+            "num_ips": 21,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 1
+          },
+          {
+            "scan_id": "263b6bf8-753b-49bd-8e76-768abb8deb88",
+            "type": "scan",
+            "label": "Datawrapper",
+            "started": 1587538521,
+            "scan_num": 1,
+            "finished": 1588097014,
+            "status": 1,
+            "num_ips": 20,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 6
+          }
+        ]
+      },
+      {
+        "type": "scan_label",
+        "label": "Datawrapper (small Cloudflare test scan)",
+        "newest_iteration": 1,
+        "scans": [
+          {
+            "scan_id": "34d408f2-9655-4a03-bceb-3af69b0c42ba",
+            "type": "scan",
+            "label": "Datawrapper (small Cloudflare test scan)",
+            "started": 1621562417,
+            "scan_num": 1,
+            "finished": 1621582157,
+            "status": 1,
+            "num_ips": 16,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 2
+          }
+        ]
+      },
+      {
+        "type": "scan_label",
+        "label": "West Creek Financial",
+        "newest_iteration": 1,
+        "scans": [
+          {
+            "scan_id": "c58ae598-1095-4354-8577-c49eb5915808",
+            "type": "scan",
+            "label": "West Creek Financial",
+            "started": 1620696383,
+            "scan_num": 1,
+            "finished": 1620710110,
+            "status": 1,
+            "num_ips": 72,
+            "num_major": 0,
+            "num_noteworthy": 0,
+            "num_minor": 1
+          }
+        ]
+      }
 ]

@@ -1,19 +1,20 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {ScrollView, Text} from 'react-native';
+import styles from '../styles/home';
 import ScanData from '../mock/scans.json';
 import Card from '../components/Card';
 
 const Home = () => {
     return (
-        <View>
+        <ScrollView style={styles.container}>
             {
-              ScanData.map((val) => {
+              ScanData.map((scansByLabel) => {
                   return (
-                      <Card key={val.scan_name} val={val}/>
+                      <Card key={scansByLabel.label} scansByLabel={scansByLabel}/>
                   )
               })  
             }
-        </View>
+        </ScrollView>
     );
 };
 
