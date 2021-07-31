@@ -45,11 +45,13 @@ const styles = StyleSheet.create({
     imageStyle: {
         width: 220,
         height: 130,
-        marginTop: -100,
+        marginTop: -60,
+        marginBottom: 10,
     },
     loginField: {
         height: 40,
-        padding: 15,
+        paddingLeft: 15,
+        paddingRight: 15,
         backgroundColor: '#EAEAEA',
         marginTop: 10,
         width: '100%',
