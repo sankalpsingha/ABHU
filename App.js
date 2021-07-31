@@ -11,13 +11,12 @@ const App = () => {
   return (
       <NavigationContainer>
           <Stack.Navigator>
-              <Stack.Screen name="Home" component={Home} />
-
               <Stack.Screen
                   options={{ headerShown: false }}
                   name="Login"
                   component={Login}
               />
+              <Stack.Screen name="Home" component={Home} />
           </Stack.Navigator>
       </NavigationContainer>
   );
