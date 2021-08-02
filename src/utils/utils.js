@@ -1,3 +1,9 @@
+import dayjs from 'dayjs';
+
+export function niceDate(epoch) {
+    return dayjs.unix(epoch).format('DD-MMM-YYYY');
+};
+
 export function niceNumber(number) {
     var newValue = number;
     if (number >= 1000) {

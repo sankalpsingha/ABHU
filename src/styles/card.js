@@ -1,8 +1,7 @@
-import { faColumns } from "@fortawesome/free-solid-svg-icons";
-
 const styles = {
     container: {
-        marginBottom: 15,
+        backgroundColor: 'white',
+        marginBottom: 20,
     },
     scanLabelStyle: {
         backgroundColor: '#CCC',
@@ -17,6 +16,9 @@ const styles = {
             borderWidth: 2,
             borderColor: '#E2E2E2',
         },
+        borderRadiusStyle: {
+            borderRadius: 3,
+        },
         rowHeadStyle: {
             height: 27,
         },
@@ -29,6 +31,13 @@ const styles = {
         rowBodyTextStyle: {
             textAlign: 'center',
             fontWeight: '700',
+        },
+        tableWrapperStyle: {
+            flexDirection: 'row',
+        },
+        cellStyle: {
+            height: 27,
+            width: 46.8,
         },
         redTextColor: {
             color: '#D22833',

@@ -15,7 +15,45 @@
             "num_ips": 442,
             "num_major": 0,
             "num_noteworthy": 2,
-            "num_minor": 72
+            "num_minor": 72,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       },
@@ -35,7 +73,45 @@
             "num_ips": 47,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 13
+            "num_minor": 13,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "26cca4c1-af53-4b02-b09d-6714678a15cb",
@@ -48,7 +124,45 @@
             "num_ips": 78,
             "num_major": 0,
             "num_noteworthy": 1,
-            "num_minor": 15
+            "num_minor": 15,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "cd20883d-b3ec-4364-85a0-9681705e84aa",
@@ -61,7 +175,45 @@
             "num_ips": 36,
             "num_major": 1,
             "num_noteworthy": 1,
-            "num_minor": 9
+            "num_minor": 9,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "55c16286-4c0b-4202-bbec-4134ceeba435",
@@ -74,7 +226,45 @@
             "num_ips": 19,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 7
+            "num_minor": 7,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "52e0ffb4-be76-4700-84c4-b835ec3d38d3",
@@ -88,7 +278,44 @@
             "num_major": 1,
             "num_noteworthy": 12,
             "num_minor": 334,
-            "unpublished": true
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       },
@@ -108,7 +335,45 @@
             "num_ips": 15816,
             "num_major": 248,
             "num_noteworthy": 1235,
-            "num_minor": 10673
+            "num_minor": 10673,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       },
@@ -128,7 +393,45 @@
             "num_ips": 28,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 6
+            "num_minor": 6,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "3f83da61-f751-4f90-9d4f-53aadcbc26ae",
@@ -141,7 +444,45 @@
             "num_ips": 50,
             "num_major": 1,
             "num_noteworthy": 0,
-            "num_minor": 12
+            "num_minor": 12,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       },
@@ -161,7 +502,45 @@
             "num_ips": 14,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 5
+            "num_minor": 5,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       },
@@ -181,7 +560,45 @@
             "num_ips": 174,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 30
+            "num_minor": 30,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       },
@@ -201,7 +618,45 @@
             "num_ips": 10,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 9
+            "num_minor": 9,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "d953b4c7-36a8-47f2-af71-3a3c1f76962f",
@@ -214,7 +669,45 @@
             "num_ips": 10,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 8
+            "num_minor": 8,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "f8dfb2c1-6df8-42dd-8e3f-31e6a25acbc7",
@@ -227,7 +720,45 @@
             "num_ips": 8,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 7
+            "num_minor": 7,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "26c24a80-aedc-494c-a802-74a0fded8462",
@@ -240,7 +771,45 @@
             "num_ips": 8,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 6
+            "num_minor": 6,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "6670ae21-2c08-4aec-9993-ac2074c13e0d",
@@ -253,7 +822,45 @@
             "num_ips": 10,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 7
+            "num_minor": 7,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       },
@@ -273,7 +880,45 @@
             "num_ips": 403,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 12
+            "num_minor": 12,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "d78762f6-b0a6-4644-bd7a-6b19c035be92",
@@ -286,7 +931,45 @@
             "num_ips": 277,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 3
+            "num_minor": 3,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "4db16060-c96f-4084-b685-2a7bdef2de55",
@@ -299,7 +982,45 @@
             "num_ips": 312,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 12
+            "num_minor": 12,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "f953f1ab-2db2-42ef-bbd3-9255a116b517",
@@ -312,7 +1033,45 @@
             "num_ips": 282,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 21
+            "num_minor": 21,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "8c072a54-1c4b-478c-a53a-cbc0c53601e0",
@@ -325,7 +1084,45 @@
             "num_ips": 261,
             "num_major": 0,
             "num_noteworthy": 20,
-            "num_minor": 38
+            "num_minor": 38,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       },
@@ -345,7 +1142,45 @@
             "num_ips": 10,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 4
+            "num_minor": 4,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "cc6ca26c-331e-460b-9d75-81d4d34b46f8",
@@ -358,7 +1193,45 @@
             "num_ips": 10,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 3
+            "num_minor": 3,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "8279f55a-85b9-46bc-b1d2-9a21e904dc4e",
@@ -371,7 +1244,45 @@
             "num_ips": 16,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 5
+            "num_minor": 5,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       },
@@ -391,7 +1302,45 @@
             "num_ips": 59,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 8
+            "num_minor": 8,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       },
@@ -411,7 +1360,45 @@
             "num_ips": 60,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 8
+            "num_minor": 8,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "dfc7f4bc-9f2e-4981-b82d-86a22b81f666",
@@ -424,7 +1411,45 @@
             "num_ips": 106,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 2
+            "num_minor": 2,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "94ec04b6-1a3e-49af-a973-cef43379f8ef",
@@ -437,7 +1462,45 @@
             "num_ips": 51,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 2
+            "num_minor": 2,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "e886809c-f925-42a8-965c-936321f8dccd",
@@ -450,7 +1513,45 @@
             "num_ips": 57,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 1
+            "num_minor": 1,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "d9ae27b9-e291-4f2d-a3da-4a15a4870ed6",
@@ -463,7 +1564,45 @@
             "num_ips": 20,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 2
+            "num_minor": 2,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "011c888d-3116-4d34-b0f1-5b0063560c15",
@@ -476,7 +1615,45 @@
             "num_ips": 21,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 1
+            "num_minor": 1,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           },
           {
             "scan_id": "263b6bf8-753b-49bd-8e76-768abb8deb88",
@@ -489,7 +1666,45 @@
             "num_ips": 20,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 6
+            "num_minor": 6,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       },
@@ -509,7 +1724,45 @@
             "num_ips": 16,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 2
+            "num_minor": 2,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       },
@@ -529,7 +1782,45 @@
             "num_ips": 72,
             "num_major": 0,
             "num_noteworthy": 0,
-            "num_minor": 1
+            "num_minor": 1,
+            "hackability_score": 37,
+            "exposure": 14,
+            "hardening": 7,
+            "patching": 16,
+            "top_issues": [
+                {
+                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
+                    "severity": "4"
+                },
+                {
+                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
+                    "severity": "3"
+                },
+                {
+                    "name": "Deprecated SMBv1 used",
+                    "severity": "3"
+                },
+                {
+                    "name": "Subdomain can be taken over",
+                    "severity": "3"
+                },
+                {
+                    "name": "Anonymous FTP login allowed",
+                    "severity": "2"
+                },
+                {
+                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "severity": "2"
+                },
+                {
+                    "name": "Information exposure through directory listing",
+                    "severity": "2"
+                }
+            ]
           }
         ]
       }
