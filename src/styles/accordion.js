@@ -28,7 +28,7 @@ const styles = {
         backgroundColor: '#EFB918',
     },
     greenColor: {
-        backgroundColor: '#25CA4E;',
+        backgroundColor: '#25CA4E',
     },
     issueNameText: {
         width: 230,

@@ -37,7 +37,13 @@ const Report = () => {
 
     const overviewTab =
         <View style={[styles.card, styles.contentCard, styles.overviewContentCard]}>
-            <View style={styles.hackabilityScoreContainer}>
+            <View 
+            style={[
+                styles.hackabilityScoreContainer,
+                styles.orangeBackgroundColor,
+                currentScan.color_hackability_score && currentScan.color_hackability_score === 'green' ? styles.greenBackgroundColor : {},
+                currentScan.color_hackability_score && currentScan.color_hackability_score === 'red' ? styles.redBackgroundColor : {},
+            ]}>
                 <Text style={styles.hackabilityScoreText}>Hackability Score: { currentScan.hackability_score }</Text>
                 {exclamationIcon}
             </View>

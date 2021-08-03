@@ -15,12 +15,20 @@ const styles = {
         justifyContent: 'center',
     },
     hackabilityScoreContainer: {
-        backgroundColor: '#E56614',
         borderRadius: 3,
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
         padding: 15,
+    },
+    orangeBackgroundColor: {
+        backgroundColor: '#E56614',
+    },
+    redBackgroundColor: {
+        backgroundColor: '#D22833',
+    },
+    greenBackgroundColor: {
+        backgroundColor: '#25CA4E',
     },
     hackabilityScoreText: {
         fontSize: 20,
