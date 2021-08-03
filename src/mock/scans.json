@@ -22,36 +22,132 @@
             "patching": 16,
             "top_issues": [
                 {
-                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
-                    "severity": "4"
+                  "name": "Cisco ASA/FTD read-only path traversal vulnerability (2020)",
+                  "severity": "3"
                 },
                 {
-                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
-                    "severity": "4"
+                  "name": "Anonymous FTP login allowed",
+                  "severity": "2"
                 },
                 {
-                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
-                    "severity": "3"
+                  "name": "Cisco device management interface exposed",
+                  "severity": "2"
                 },
                 {
-                    "name": "Deprecated SMBv1 used",
-                    "severity": "3"
+                  "name": "Information exposure through directory listing",
+                  "severity": "2"
                 },
                 {
-                    "name": "Subdomain can be taken over",
-                    "severity": "3"
+                  "name": "Erlang Port Mapper Daemon (EPMD) exposed",
+                  "severity": "2"
                 },
                 {
-                    "name": "Anonymous FTP login allowed",
-                    "severity": "2"
+                  "name": "Firewall management interface exposed",
+                  "severity": "2"
                 },
                 {
-                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
-                    "severity": "2"
+                  "name": "Information leak from sensitive files and pages",
+                  "severity": "2"
                 },
                 {
-                    "name": "Information exposure through directory listing",
-                    "severity": "2"
+                  "name": "MikroTik router exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Information disclosure for Nginx",
+                  "severity": "2"
+                },
+                {
+                  "name": "Potentially vulnerable Apache server exposed (2019)",
+                  "severity": "2"
+                },
+                {
+                  "name": "Old OpenSSH server exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Remote Desktop Protocol (RDP) service exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Usage of retired/outdated JS libraries detected",
+                  "severity": "2"
+                },
+                {
+                  "name": "Sophos XG firewall interface exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "SSH with password-based authentication exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Telnet service exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Admin login page/section exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "AMQP exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "FTP service exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "HTTP Auth exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "License file exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "MQTT messaging protocol exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "Interesting file exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "README file exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "Usage of retired/outdated JS libraries detected",
+                  "severity": "1"
+                },
+                {
+                  "name": "Usage of retired/outdated JS libraries detected",
+                  "severity": "1"
+                },
+                {
+                  "name": "RPC portmapper exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "Obsolete SSH server and less secure SSHv1 protocol detected",
+                  "severity": "1"
+                },
+                {
+                  "name": "Weak Diffie-Hellman key exchange primes used (Logjam)",
+                  "severity": "1"
+                },
+                {
+                  "name": "Wordpress user enumeration allowed",
+                  "severity": "1"
+                },
+                {
+                  "name": "Information exposure for WordPress",
+                  "severity": "1"
+                },
+                {
+                  "name": "WordPress login exposed",
+                  "severity": "1"
                 }
             ]
           }
@@ -278,42 +374,195 @@
             "num_major": 1,
             "num_noteworthy": 12,
             "num_minor": 334,
-            "hackability_score": 37,
-            "exposure": 14,
-            "hardening": 7,
-            "patching": 16,
+            "hackability_score": 129,
+            "color_hackability_score": "red",
+            "exposure": 62,
+            "hardening": 32,
+            "patching": 35,
             "top_issues": [
                 {
-                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
-                    "severity": "4"
+                  "name": "Exposed RDP host vulnerable to Remote Code Execution (2012)",
+                  "severity": "4"
                 },
                 {
-                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
-                    "severity": "4"
+                    "name": "Writable AWS bucket",
+                    "severity": "3"
                 },
                 {
                     "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
                     "severity": "3"
                 },
                 {
-                    "name": "Deprecated SMBv1 used",
+                    "name": "Directory traversal vulnerability (arbitrary file read)",
                     "severity": "3"
                 },
                 {
-                    "name": "Subdomain can be taken over",
+                    "name": "SVN repository exposed in web root directory",
                     "severity": "3"
+                },
+                {
+                  "name": "AWS bucket with sensitive files exposed",
+                  "severity": "2"
                 },
                 {
                     "name": "Anonymous FTP login allowed",
                     "severity": "2"
                 },
                 {
-                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
+                    "name": "Apache status page enabled",
                     "severity": "2"
                 },
                 {
-                    "name": "Information exposure through directory listing",
-                    "severity": "2"
+                  "name": "Cisco device management interface exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Cisco ASA management interface exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Configuration file exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Information exposure through directory listing",
+                  "severity": "2"
+                },
+                {
+                  "name": "Firewall management interface exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "H.323 signaling port exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": ".htaccess file exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "MikroTik router exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Microsoft SQL service exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "MySQL service exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Potentially vulnerable Apache server exposed (2019)",
+                  "severity": "2"
+                },
+                {
+                  "name": "Potentially vulnerable IIS server exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Old OpenSSH server exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "phpMyAdmin exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Plesk web hosting admin control panel exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "PostgreSQL service exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "PRTG Traffic Monitor exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Remote Desktop Protocol (RDP) service exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "RDP service accepts weak encryption detected",
+                  "severity": "2"
+                },
+                {
+                  "name": "Microsoft Windows SMB/Netbios exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Telnet service exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Terminal server exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "VNC service exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Webmin configuration tool exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": "Windows RPC exposed",
+                  "severity": "2"
+                },
+                {
+                  "name": ".NET message framing interface exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "ASP.NET debug mode enabled",
+                  "severity": "1"
+                },
+                {
+                  "name": "BGP exposed (but rejecting connection attempts)",
+                  "severity": "1"
+                },
+                {
+                  "name": "F5 BigIP load balancer exposes internal information via its cookie",
+                  "severity": "1"
+                },
+                {
+                  "name": "Check Point FireWall-1 Topology internal information leak",
+                  "severity": "1"
+                },
+                {
+                  "name": "FTP service exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "HTTP Auth exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "LDAP service exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "NTP service exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "RPC portmapper exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "Simple Network Management Protocol (SNMP) exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "Obsolete SSH server and less secure SSHv1 protocol detected",
+                  "severity": "1"
+                },
+                {
+                  "name": "Weak Diffie-Hellman key exchange primes used (Logjam)",
+                  "severity": "1"
                 }
             ]
           }
@@ -1085,44 +1334,61 @@
             "num_major": 0,
             "num_noteworthy": 20,
             "num_minor": 38,
-            "hackability_score": 37,
-            "exposure": 14,
-            "hardening": 7,
-            "patching": 16,
+            "hackability_score": 28,
+            "color_hackability_score": "red",
+            "exposure": 3,
+            "hardening": 16,
+            "patching": 9,
             "top_issues": [
                 {
-                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
-                    "severity": "4"
+                  "name": "SVN repository exposed in web root directory",
+                  "severity": "3"
                 },
                 {
-                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
-                    "severity": "4"
+                  "name": "BigIP configuration login exposed",
+                  "severity": "2"
                 },
                 {
-                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
-                    "severity": "3"
+                  "name": "MySQL service exposed",
+                  "severity": "2"
                 },
                 {
-                    "name": "Deprecated SMBv1 used",
-                    "severity": "3"
+                  "name": "Potentially vulnerable Apache server exposed (2019)",
+                  "severity": "2"
                 },
                 {
-                    "name": "Subdomain can be taken over",
-                    "severity": "3"
+                  "name": "Potentially vulnerable IIS server exposed",
+                  "severity": "2"
                 },
                 {
-                    "name": "Anonymous FTP login allowed",
-                    "severity": "2"
+                  "name": "Old OpenSSH server exposed",
+                  "severity": "2"
                 },
                 {
-                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
-                    "severity": "2"
+                  "name": "Check Point FireWall-1 Topology internal information leak",
+                  "severity": "1"
                 },
                 {
-                    "name": "Information exposure through directory listing",
-                    "severity": "2"
+                  "name": "FTP service exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "README file exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "RPC portmapper exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "Simple Network Management Protocol (SNMP) exposed",
+                  "severity": "1"
+                },
+                {
+                  "name": "Weak Diffie-Hellman key exchange primes used (Logjam)",
+                  "severity": "1"
                 }
-            ]
+              ]
           }
         ]
       },
@@ -1361,42 +1627,35 @@
             "num_major": 0,
             "num_noteworthy": 0,
             "num_minor": 8,
-            "hackability_score": 37,
-            "exposure": 14,
-            "hardening": 7,
-            "patching": 16,
+            "hackability_score": 3,
+            "color_hackability_score": "green",
+            "exposure": 1,
+            "hardening": 1,
+            "patching": 1,
             "top_issues": [
                 {
-                    "name": "Windows SMBv1 server vulnerable to EternalBlue (2017)",
-                    "severity": "4"
+                  "name": "MySQL service exposed",
+                  "severity": "2"
                 },
                 {
-                    "name": "Server backdoored with SMB Pulsar backdoor detected (2017)",
-                    "severity": "4"
+                  "name": "Usage of retired/outdated JS libraries detected",
+                  "severity": "2"
                 },
                 {
-                    "name": "TLS-enabled services vulnerable to OpenSSL Heartbleed bug (2014)",
-                    "severity": "3"
+                  "name": "SSH with password-based authentication exposed",
+                  "severity": "2"
                 },
                 {
-                    "name": "Deprecated SMBv1 used",
-                    "severity": "3"
+                  "name": "Interesting file exposed",
+                  "severity": "1"
                 },
                 {
-                    "name": "Subdomain can be taken over",
-                    "severity": "3"
+                  "name": "Usage of retired/outdated JS libraries detected",
+                  "severity": "1"
                 },
                 {
-                    "name": "Anonymous FTP login allowed",
-                    "severity": "2"
-                },
-                {
-                    "name": "Publicly available password leaks contain credentials for users from the scanned domains",
-                    "severity": "2"
-                },
-                {
-                    "name": "Information exposure through directory listing",
-                    "severity": "2"
+                  "name": "Usage of retired/outdated JS libraries detected",
+                  "severity": "1"
                 }
             ]
           },
