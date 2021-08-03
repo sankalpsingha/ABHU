@@ -9,8 +9,11 @@ import hardening from '../../assets/hardening.png';
 import patching from '../../assets/patching.png';
 import { useState } from 'react';
 import Accordion from '../components/Accordion';
+import { useSelector } from 'react-redux';
+import { selectScan } from '../slices/scanSlice';
 
-const Report = ({route}) => {
+const Report = () => {
+    const currentScan = useSelector(selectScan);
     const [activeTab, setActiveTab] = useState('overview');
 
     const exclamationIcon =
@@ -35,18 +38,18 @@ const Report = ({route}) => {
     const overviewTab =
         <View style={[styles.card, styles.contentCard, styles.overviewContentCard]}>
             <View style={styles.hackabilityScoreContainer}>
-                <Text style={styles.hackabilityScoreText}>Hackability Score: { route.params.hackability_score }</Text>
+                <Text style={styles.hackabilityScoreText}>Hackability Score: { currentScan.hackability_score }</Text>
                 {exclamationIcon}
             </View>
-            { categoryScoreContainer(exposure, 'Exposure', route.params.exposure) }
-            { categoryScoreContainer(hardening, 'Hardening', route.params.hardening) }
-            { categoryScoreContainer(patching, 'Patching', route.params.patching) }
+            { categoryScoreContainer(exposure, 'Exposure', currentScan.exposure) }
+            { categoryScoreContainer(hardening, 'Hardening', currentScan.hardening) }
+            { categoryScoreContainer(patching, 'Patching', currentScan.patching) }
         </View>;
     
     const issueDetailsTab =
         <ScrollView style={[styles.card, styles.contentCard]}>
             {
-                route.params.top_issues.map((issue, index) => {
+                currentScan.top_issues.map((issue, index) => {
                     return (
                         <Accordion
                             key={index}
@@ -60,9 +63,9 @@ const Report = ({route}) => {
     return (
         <ScrollView style={styles.container}>
             <View style={styles.card}>
-                <Text style={styles.scanLabel}>{ route.params.label }</Text>
+                <Text style={styles.scanLabel}>{ currentScan.label }</Text>
                 <Text style={styles.scanRevisionDate}>
-                    Revision { route.params.scan_num } | { niceDate(route.params.started) }
+                    Revision { currentScan.scan_num } | { niceDate(currentScan.started) }
                 </Text>
             </View>
             { activeTab === 'overview' ? overviewTab : issueDetailsTab }

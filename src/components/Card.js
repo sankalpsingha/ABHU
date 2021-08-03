@@ -5,8 +5,12 @@ import styles from '../styles/card';
 import { niceNumber } from '../utils/utils';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faDownload, faRedo, faTrash } from '@fortawesome/free-solid-svg-icons';
+import { useDispatch } from 'react-redux';
+import { setScan } from '../slices/scanSlice';
 
 const Card = ({scansByLabel, navigation}) => {
+    const dispatch = useDispatch();
+
     const tableHead = ['Rev.', 'Issues', 'Actions'];
     const headWidthArr = [46.8, 140.4, 140.4];
 
@@ -28,11 +32,17 @@ const Card = ({scansByLabel, navigation}) => {
                 <FontAwesomeIcon icon={faTrash} />
             </Text>
         </View>;
+    
+    const onPressAction = (scan) => {
+        dispatch(setScan(scan));
+        navigation.navigate('Report');
+    };
+
     const columnElement = (scan, data, key) => {
         return (
             <TouchableOpacity
                 key={key}
-                onPress={()=> navigation.navigate('Report', scan)}
+                onPress={()=> onPressAction(scan)}
             >
                 <Cell
                     borderStyle={styles.tableStyle.headBorderStyle}
